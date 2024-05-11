@@ -1,4 +1,4 @@
-/* Set the background image */
+
 body {
   background-image: url("hacker.jpg");
   background-size: cover;
@@ -6,47 +6,47 @@ body {
   background-attachment: fixed;
 }
 
-/* Set the font family and font size for the entire document */
+
 body, h1, h2, p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #ffffff;
 }
 
-/* Style the header section */
+
 header {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   text-align: center;
 }
 
-/* Style the main section */
+
 main {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* Style the h2 elements */
+
 h2 {
   font-size: 24px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
-/* Style the p elements */
+
 p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-/* Style the img elements */
+
 img {
   border-radius: 5px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Style the footer section */
+
 footer {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
@@ -60,12 +60,11 @@ a {
   text-decoration: none;
 }
 
-/* Style the anchor elements when they are hovered */
 a:hover {
   text-decoration: underline;
 }
 
-/* Style the input elements */
+
 input[type="text"], input[type="email"], textarea {
   width: 100%;
   padding: 10px;
@@ -74,12 +73,11 @@ input[type="text"], input[type="email"], textarea {
   margin-bottom: 20px;
 }
 
-/* Style the textarea element */
 textarea {
   height: 200px;
 }
 
-/* Style the button elements */
+
 button {
   background-color: #00e6ff;
   color: #ffffff;
@@ -89,24 +87,24 @@ button {
   cursor: pointer;
 }
 
-/* Style the button elements when they are hovered */
+
 button:hover {
   background-color: #00b8d9;
 }
 
-/* Style the form section */
+
 form {
   max-width: 500px;
   margin: 0 auto;
 }
 
-/* Style the form label elements */
+
 label {
   display: block;
   margin-bottom: 5px;
 }
 
-/* Style the form input and textarea elements */
+
 input[type="text"], input[type="email"], textarea {
   width: 100%;
   padding: 10px;
@@ -115,7 +113,7 @@ input[type="text"], input[type="email"], textarea {
   margin-bottom: 20px;
 }
 
-/* Style the form button element */
+
 button {
   background-color: #00e6ff;
   color: #ffffff;
@@ -126,12 +124,12 @@ button {
   width: 100%;
 }
 
-/* Style the form button element when it is hovered */
+
 button:hover {
   background-color: #00b8d9;
 }
 
-/* Style the form message section */
+
 .form-message {
   margin-top: 20px;
   background-color: #00e6ff;
@@ -141,7 +139,7 @@ button:hover {
   display: none;
 }
 
-/* Style the form message section when it is displayed */
+
 .form-message.show {
   display: block;
 }
